@@ -1,0 +1,64 @@
+.whowweare-body img{
+    width: 350px;
+    height: 400px;
+
+}
+.side-height{
+    height: 555px;
+}
+
+.whowwearecontainer{
+    padding: 200px 0px;
+    background-color: rgba(43, 32, 36, 1);
+    position: relative;
+    margin-top: 200px;
+}
+.whowweare-body{
+    width: 100%;
+position: absolute;
+bottom: 50px;
+color: white;
+
+}
+.whowweare-body h6{
+    color: rgba(253, 0, 84, 1);;
+}
+.progress{
+    height: 3px !important  ;
+  
+}
+.progress-bar{
+    width: 90%;
+    height: 3px;
+   background-color: rgba(253, 0, 84, 1) !important;
+}
+
+
+@media(max-width:1096px){
+    .whowweare-body{
+     
+    position: static;
+    bottom: 0;
+    color: black;
+    
+    }
+
+    
+.whowwearecontainer{
+
+    background-color:white;
+
+}
+.whowwearecontainer .side-width{
+    margin-left: 0;
+    width: 320px;
+}
+.whowweare-body img{
+    width: 320px;
+    height: 300px;
+    
+
+}
+
+
+}

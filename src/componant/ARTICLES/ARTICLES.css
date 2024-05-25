@@ -1,0 +1,24 @@
+.articles{
+  background-color: rgba(244, 244, 244, 1);
+}
+
+.articlesheader button{
+  width: 120px;
+  color: rgba(253, 0, 84, 1);
+  height: 30px;
+margin-top: 20px;
+  border: 1px solid  rgba(253, 0, 84, 1); ;
+  font-size: 11px;
+  
+}
+.classesheader{
+  width: 780px;
+}
+.articlesheader h3{
+  font-size: 35px;
+}
+
+.articlesheader span{
+  font-size: 25px;
+  font-weight: bold;
+}

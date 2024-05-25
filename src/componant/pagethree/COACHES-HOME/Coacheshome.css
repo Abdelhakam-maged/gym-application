@@ -1,0 +1,61 @@
+.bg-homecoaches{
+
+ 
+    background-image: url(../../../images/largehome.jpg);
+    background-repeat: no-repeat;
+   height: 700px;
+   background-size:cover;
+
+
+}
+
+
+.bg-homeactivites{
+    background-image: url(../../../images/large16.jpg);
+
+    background-repeat: no-repeat;
+   height: 700px;
+   background-size:cover;
+}
+
+.bg-homecontacts{
+
+    background-image: url(../../../images/large7.jpg);
+    background-repeat: no-repeat;
+   height: 700px;
+   background-size:cover;
+}
+.bg-homeshop{
+
+    background-image: url(../../../images/largeshop.jpg);
+    background-repeat: no-repeat;
+   height: 700px;
+   background-size:cover;
+}
+
+
+.bg-homepractice{
+    background-image: url(../../../images/large12.jpg);
+
+    background-repeat: no-repeat;
+   height: 600px;
+   background-size:cover;
+}
+.home-body{
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    margin-top: 250px;
+}
+
+
+.bg-homepricing{
+
+    background-image: url(../../../images/large14.webp);
+
+    background-repeat: no-repeat;
+   height: 700px;
+   background-size:cover;
+
+
+}

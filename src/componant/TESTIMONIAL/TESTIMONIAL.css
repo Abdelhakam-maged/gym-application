@@ -1,0 +1,115 @@
+
+.testimonialcontainer{
+  padding: 160px 0;
+}
+.testimonialheader{
+
+  width: 50%;
+  margin: auto;
+
+}
+
+.testimonialheader img{
+
+width: 50px;
+height: 50px;
+display: inline-block;
+margin-bottom: 30px;
+}
+.testimonialheader div{
+  display: inline-block;
+}
+.testimonialheader h5{
+  color: rgba(253, 0, 84, 1);
+  margin: 0;
+}
+.starcolor{
+  color: rgba(253, 0, 84, 1);;
+}
+
+.pagenumber{
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  color: rgba(253, 0, 84, 1);
+  padding-right: 100px;
+}
+.testimonial{
+  background-color: rgba(43, 32, 36, 1);
+width: 1150px;
+position: absolute;
+top: -180px;
+}
+.pagethree .testimonial{
+opacity: .8;
+  position: static;
+}
+.bgimgcontainer{
+  background-image: url(../../images/images.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1150px;
+  margin: auto;
+}
+
+
+.binkbgcolor{
+  background:rgba(253, 0, 84, 1);
+  color: white;
+  border-radius: 5px;
+}
+
+
+.whitebgcolor {
+  border: 1px solid rgba(0, 0, 0, 0.256) ;
+  color:rgba(253, 0, 84, 1) ;
+  border-radius: 5px;
+}
+
+
+.whitebgcolor button{
+  border: 1px solid rgba(253, 0, 84, 1) ;
+  color:rgba(253, 0, 84, 1) ;
+  background-color: white;
+}
+.binkbgcolor button{
+  background-color: white;
+  
+}
+
+.whitebgcolor h5 ,.whitebgcolor p  ,.whitebgcolor div span {
+  color: #000;
+
+}
+
+
+.testimonialheader p{
+color: rgba(250, 250, 250, 0.705);
+}
+
+.testimonbody{
+  margin-top: 50px;
+  background-color: rgba(171, 1, 57, 1);
+padding: 100px;
+position: relative;
+}
+
+.testimonbody button{
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+.testimonial head{
+  width: 287px;
+}
+
+@media(max-width:1250px){
+  .testimonial{
+  flex-direction: column;
+  display: none;
+  
+  margin: auto;
+  }
+
+}

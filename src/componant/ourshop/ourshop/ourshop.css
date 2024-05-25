@@ -1,0 +1,95 @@
+.shopcard{
+    width: 200px;
+    text-align: center;
+
+ margin: auto;
+ margin-bottom: 50px !important;
+}
+.shopcard img{
+    width: 200px;
+    height: 200px;
+}
+
+.detailsoftybe{
+
+    background-color:snow;
+    padding-bottom: 20px;
+}
+
+.detailsoftybe button{
+    background-color: rgba(253, 0, 84, 1);
+
+    border: 1px solid rgba(253, 0, 84, 1) ;
+    color: white;
+    
+}
+
+.page-item{
+   border: 1px solid black; 
+}
+
+.cardbtn{
+  width: 200px;
+  font-size: 25px;
+  color: rgba(253, 0, 84, 1);
+  margin-bottom: 10px;
+  border: 2px solid rgba(253, 0, 84, 1) ;
+  background-color: white;
+}
+.removebtn{
+  background-color: rgba(253, 0, 84, 1);
+
+  border: 1px solid rgba(253, 0, 84, 1) ;
+  color: white;
+}
+
+.filter input{
+  height: 42.5px;
+  width:  200px;
+  border: 2px solid rgba(253, 0, 84, 1) ;
+  outline: none;
+
+}
+
+
+
+.custom-pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .custom-pagination ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+  }
+  
+  .custom-pagination li {
+    margin: 0 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-pagination li:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .custom-pagination li.active {
+    background-color: #1976d2;
+    color: #fff;
+  }
+  
+  .custom-pagination .ellipsis {
+    margin: 0 5px;
+    font-size: 14px;
+    cursor: default;
+  }
+
+  @media(max-width:450px){
+    .filter .binkcolor{
+      display: none;
+    }
+  }

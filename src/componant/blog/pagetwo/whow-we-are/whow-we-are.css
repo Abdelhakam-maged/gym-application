@@ -1,0 +1,67 @@
+
+
+.whowweare  {
+  
+  
+  margin-top: 150px;
+}
+
+
+
+
+.whowweare .juscontant{
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+ 
+.whowweare .text-color{
+  color: rgba(253, 0, 84, 1) ;
+}
+
+.whowweare .buttons button{
+border: 2px solid rgba(253, 0, 84, 1) ;
+background-color: white;
+}
+
+
+
+.whowweare .right-side{
+  position: relative;
+  
+
+}
+
+.whowweare .right-side img{
+  height: 400px;
+  width: 350px;
+  
+  display: block;
+}
+
+.whowweare .right-side .imageone{
+  position: absolute;
+  right:  80px;
+  bottom: 50px;
+}
+
+
+
+@media (max-width:850px){
+  .whowweare .right-side .imageone{
+display: none;
+  }
+  
+}
+
+@media(max-width:666px){
+  .whowweare .right-side .imagetwo{
+    margin-top: 50px;
+    height: 300px;
+    width: 250px;
+      }
+.whowweare .lift-side{
+  text-align: center;
+} 
+}

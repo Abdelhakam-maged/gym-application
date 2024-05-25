@@ -1,0 +1,113 @@
+
+.bgfirst{
+  background-image: url(../../../../../images/imagetwo.jfif);  
+height: 400px;
+background-repeat: no-repeat;
+  background-size:cover  ;
+  width: 380px;
+}
+.bgfirst h6{
+  margin-top: 300px !important;
+  color: white;
+  margin-left: 30px;
+}
+.bgfirst span{
+  color: rgba(253, 0, 84, 1);
+  margin-left: 30px;
+}
+.bgsecond{
+  background-image: url(../../../../../images/imageone.jfif);
+  height: 400px;
+background-repeat: no-repeat;
+  background-size:cover  ;
+  width: 380px;
+}
+.bgsecond h6{
+  margin-top: 300px;
+  color: white;
+  margin-left: 30px;
+}
+.bgsecond span{
+  color: rgba(253, 0, 84, 1);
+  margin-left: 30px;
+}
+
+.bgthree{
+  background-image: url(../../../../../images/images\ \(2\).jfif);
+  height: 400px;
+background-repeat: no-repeat;
+  background-size:cover  ;
+  width: 380px;
+}
+
+.bgthree h6{
+  margin-top: 300px;
+  color: white;
+  margin-left: 30px;
+}
+.bgthree span{
+  color: rgba(253, 0, 84, 1);
+  margin-left: 30px;
+}
+
+
+.bgfour{
+  background-image: url(../../../../../images/imageseven.jfif);
+  height: 400px;
+background-repeat: no-repeat;
+  background-size:cover  ;
+  width: 380px;
+}
+
+.bgfour h6{
+  margin-top: 300px;
+  color: white;
+  margin-left: 30px;
+}
+.bgfour span{
+  color: rgba(253, 0, 84, 1);
+  margin-left: 30px;
+}
+
+.bgfive{
+  background-image: url(../../../../../images/imagenine.jfif);
+  height: 400px;
+background-repeat: no-repeat;
+  background-size:cover  ;
+  width: 380px;
+}
+
+.bgfive h6{
+  margin-top: 300px;
+  color: white;
+  margin-left: 30px;
+}
+.bgfive span{
+  color: rgba(253, 0, 84, 1);
+  margin-left: 30px;
+}
+
+.bgsix{
+  background-image: url(../../../../../images/imageten.jfif);
+  height: 400px;
+background-repeat: no-repeat;
+  background-size:cover  ;
+  width: 380px;
+}
+
+.bgsix h6{
+  margin-top: 300px;
+  color: white;
+  margin-left: 30px;
+}
+.bgsix span{
+  color: rgba(253, 0, 84, 1);
+  margin-left: 30px;
+}
+
+@media (max-width:415px){
+.bgfirst , .bgsecond , .bgthree , .bgfour , .bgfive , .bgsix{
+  width: 280px;
+}
+  
+}

@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.componant-padding{
+  padding: 70px 0;
+}
+
+.headerspace {
+  display: inline-block;
+  width: 30px;
+  border-top: 1px solid;
+  margin-bottom: 10px;
+  color: rgba(253, 0, 84, 1);
+}
+
+.textcolor {
+  margin-right: 20px;
+  color: rgba(253, 0, 84, 1);
+}
+
+.componantheader {
+  width: 25%;
+  font-family: "Agdasima", sans-serif;
+}
+
+@media(max-width:1100px){
+
+  .componantheader {
+    width: 80%;
+  }
+}

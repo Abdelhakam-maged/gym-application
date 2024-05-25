@@ -1,0 +1,51 @@
+
+.pagetwo-ourclasses{
+  padding-bottom: 300px;
+
+}
+
+.pagetwo-ourclasses .up-side{
+
+  background-color:rgba(43, 32, 36, 1);
+  padding: 80px  0px;
+  position: relative;
+}
+
+
+
+
+.bagrimgone{
+
+  background-image: url(../../../../images/imageone.jfif) ;
+  padding: 80px  0px;
+  opacity: .5;
+
+  background-size: cover;
+}
+
+.bagrimgtwo{
+
+  background-image: url(../../../../images/imagetwo.jfif) ;
+  padding: 80px  0px;
+  opacity: .5;
+  
+  background-size: cover;
+}
+.bagrimgthree{
+
+  background-image: url(../../../../images/imagethree.jfif) ;
+  padding: 80px  0px;
+  opacity: .5;
+  
+  background-size: cover;
+}
+
+.bagrimgfour  {
+
+  background-image: url(../../../../images/imagefour.jfif) ;
+  padding: 80px  0px;
+  opacity: .5;
+  
+  background-size: cover;
+}
+

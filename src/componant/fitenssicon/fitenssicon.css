@@ -1,0 +1,36 @@
+
+.pagetwo-ourclasses-underside{
+    background-color:  rgba(253, 0, 84, 1);
+    width:650px;
+  
+    position: absolute;
+    
+  }
+  
+  .underside-center{
+    width:650px;
+    margin:auto ;
+  }
+
+ .underside-center .fiticoncolor{
+    color: black;
+  }
+  
+@media (max-width:650px){
+    .pagetwo-ourclasses-underside{
+        position: static;
+       background-color: transparent;
+        width:100%;
+        
+      }
+
+      .underside-center{
+        width:90%;
+        margin:auto ;
+      }
+      
+     .underside-center .fiticoncolor{
+        color: rgba(253, 0, 84, 1);
+      }
+  
+}

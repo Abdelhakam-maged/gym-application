@@ -1,0 +1,42 @@
+.footerhead{
+  color: rgba(253, 0, 84, 1);
+  
+}
+
+.firstcol p{
+font-size: 14px ;
+
+}
+
+.footercontainer{
+  background-color:rgba(43, 32, 36, 1);
+}
+.footerbody{
+  display: flex;
+}
+.footerbtn{
+  background-color: rgba(253, 0, 84, 1);
+  border: 0;
+  width: 197px;
+  height: 40px;
+}
+
+.footerinput{
+  background: rgba(250, 250, 250, 0.2);
+color: white;
+padding: 8px;
+display: block;
+
+outline: none;
+border: 0;
+}
+
+@media(max-width:1200px){
+  .footerbody{
+    flex-direction: column;
+    text-align: center;
+  }
+  .footerinput{
+    margin: auto;
+  }
+}

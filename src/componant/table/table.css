@@ -1,0 +1,30 @@
+
+.timetable  th{
+  border: 1px  solid rgba(128, 128, 128, 0.274) !important  ;
+height: 60px;
+text-align: center !important;
+width: 100px;
+}
+.timetable  td{
+  border: 1px  solid rgba(128, 128, 128, 0.274) !important;
+  text-align: center;
+  height: 90px;
+width: 100px;
+
+}
+.timetable {
+  width: 100%;
+  border-spacing: 2px;
+
+}
+
+.res{
+  overflow-x: auto;
+}
+.timetable  thead{ 
+  background-color: rgba(226, 226, 226, 1);
+}
+
+.timetable  td span{
+  color: rgba(253, 0, 84, 1);
+}

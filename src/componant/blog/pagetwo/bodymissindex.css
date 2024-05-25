@@ -1,0 +1,46 @@
+.side-width{
+    width: 350px;
+    margin-left: 10px;
+}
+
+.inputone {
+    width: 170px;
+    margin-right: 10px;
+}
+
+.inputtwo{
+    width: 170px;
+}
+
+.bodycontainer button {
+background-color: white;
+color: rgba(253, 0, 84, 1);
+
+border: 3px solid rgba(253, 0, 84, 1);
+}
+
+.weight-status th{
+    border: 1px  solid rgba(128, 128, 128, 0.274) !important  ;
+  height: 50px;
+  text-align: center !important;
+  width: 100PX;
+  
+  }
+  .weight-status td{
+    border: 1px  solid rgba(128, 128, 128, 0.274) !important;
+    text-align: center;
+height: 50px;
+width: 100PX;
+  }
+  .weight-status {
+    width: 100%;
+    border-spacing: 2px;
+  
+  }
+
+  @media (max-width:1096px){
+.side-width{
+  margin-top: 40px !important;
+}
+
+  }
