@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { IoBarbell } from "react-icons/io5"; 
 import { IoIosArrowForward } from "react-icons/io";
 import { Link, useLocation } from 'react-router-dom';
@@ -17,7 +17,6 @@ const pages=[
 
 
 const Navbarsectiontwo = (props) => {
-  const [curPage,setCurPage] = useState("")
   
   const location=useLocation()
   const curLocation=location.pathname.split("/")[1]

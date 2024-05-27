@@ -6,32 +6,30 @@ const Homesection1 = () => {
     height: "",
     weight: "",
   });
-const [bmi,setbmi]=useState()
+  const [bmi, setbmi] = useState();
 
-const [show,setshow]=useState(false)
+  const [show, setshow] = useState(false);
   const data = (e) => {
-    userdata[e.target.name] = e.target.value;
-    
+    setUserData((prev) => ({ ...prev, [e.target.name]: e.target.value }));
+
     console.log(userdata);
   };
   const calc = () => {
-    if(userdata.height===""){
-      setbmi("Enter your height")
+    if (userdata.height === "") {
+      setbmi("Enter your height");
+    } else if (userdata.weight === "") {
+      setbmi("Enter your weight");
+    } else {
+      setbmi(
+        "Your Body Bmi Is " +
+          parseInt(userdata.weight) / parseInt(userdata.height)
+      );
     }
-     else if( userdata.weight===""){
-      setbmi("Enter your weight")
-     
-    }
-    else{
-      setbmi("Your Body Bmi Is "+  parseInt(userdata.weight) / parseInt(userdata.height))
-    }
-    setshow(true)
+    setshow(true);
   };
 
   return (
-    
     <div className="container bg-dark p-4 bmi">
-
       <div className="bimcontainer">
         <div className=" bimheader">
           <span className="text-light fs-2">
@@ -42,48 +40,40 @@ const [show,setshow]=useState(false)
 
         <div className="  mt-4 bimform   justify-content-center     align-items-start">
           <div>
-          <label>
-            
-            <input
-              onChange={data}
-              type="number"
-              placeholder="fit"
-              name="height" 
-              className="me-3 input1"
-            />
-            <div className="text-light  ">Height</div>
-          </label>
-</div>
+            <label>
+              <input
+                onChange={data}
+                type="number"
+                placeholder="fit"
+                name="height"
+                className="me-3 input1"
+              />
+              <div className="text-light  ">Height</div>
+            </label>
+          </div>
           <input type="text" value="in" readOnly className="input1 me-3" />
           <div>
-          <label>
-          <input
-            onChange={data}
-            type="number"
-            placeholder="less"
-            name="weight"
-            className="input2 me-5"
-          />
-          <div className="text-light  ">Weight</div>
-          </label>
+            <label>
+              <input
+                onChange={data}
+                type="number"
+                placeholder="less"
+                name="weight"
+                className="input2 me-5"
+              />
+              <div className="text-light  ">Weight</div>
+            </label>
           </div>
 
           <button className="bg-danger text-light" onClick={calc}>
             CALCULATE
           </button>
 
-        
-
-<Modal show={show} setshow={setshow} bmi={bmi} />
-
-  
-          
+          <Modal show={show} setshow={setshow} bmi={bmi} />
         </div>
       </div>
       <div className="row p-0 m-0">
-<div className="col-12 p-0 underline">
-
-</div>
+        <div className="col-12 p-0 underline"></div>
       </div>
     </div>
   );

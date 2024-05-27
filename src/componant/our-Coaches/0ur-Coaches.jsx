@@ -1,7 +1,6 @@
 import React from 'react';
 import Coacheshome from './COACHES-HOME/Coacheshome';
 import BestTrainnerPageThree from './best-trainner-pagethere/Best-Trainner-Page-Three';
-import Homecard from './COACHES-HOME/homecard';
  
 import Footer from '../footer/footer'
 import Pricing from './pricing/pricing';

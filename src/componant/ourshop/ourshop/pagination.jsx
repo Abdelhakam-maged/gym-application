@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./ourshop.css";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa"; // Import arrow icons
 // import "./CustomPagination.css"; // Import your custom styles
