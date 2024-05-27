@@ -1,5 +1,4 @@
 import React from 'react';
-import Aboutus from '../aboutus';
 import OurShop from '../ourshop/ourshop/OurShop';
 import Homecard from '../our-Coaches/COACHES-HOME/homecard';
 import Footer from '../footer/footer'

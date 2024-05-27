@@ -3,7 +3,7 @@ import React from 'react'
 import { IoMdHappy, IoMdPerson } from "react-icons/io";
 
 import { IoBarbell } from "react-icons/io5";
-import { FaRunning, FaLongArrowAltRight } from "react-icons/fa";
+import { FaRunning } from "react-icons/fa";
 import "./fitenssicon.css"
 const fitenssicon = [
     { icon: <IoMdHappy />, num: "437 " },

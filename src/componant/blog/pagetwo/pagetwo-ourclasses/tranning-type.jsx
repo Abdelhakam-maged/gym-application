@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaRunning, FaLongArrowAltRight } from "react-icons/fa";
+import {  FaLongArrowAltRight } from "react-icons/fa";
 
 
 import "./pagetwo-ourclasses.css"

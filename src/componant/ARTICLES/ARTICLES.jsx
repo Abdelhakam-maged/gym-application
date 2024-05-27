@@ -4,10 +4,6 @@ import './ARTICLES.css';
 import imagearcone from "../../images/download (1).jfif"
 import imagearctwo from "../../images/download (2).jfif"
 import imagearcthree from "../../images/download.jfif"
-import imagearcfour from "../../images/imagefour.jfif"
-import imagearcfive from "../../images/imagefive.jfif"
-import imagearcsex from "../../images/imagesix.jfif"
-
 const ARTICLES = () => {
 
   

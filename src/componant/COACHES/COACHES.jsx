@@ -3,16 +3,8 @@ import "./COACHES.css";
 import imageone from "../../images/image1.jfif";
 import imagetwo from "../../images/images (1).jfif";
 import imagethree from "../../images/images.jfif";
-import { IoMdHappy, IoMdPerson } from "react-icons/io";
-import { FaRunning } from "react-icons/fa";
-import { IoBarbell } from "react-icons/io5";
 import Fitenssicon from "../fitenssicon/fitenssicon";
-const fitenssicon = [
-  { icon: <IoMdHappy />, num: "437" },
-  { icon: <FaRunning />, num: "235" },
-  { icon: <IoMdPerson />, num: "44" },
-  { icon: <IoBarbell />, num: "745" },
-];
+
 
 const COACHES = () => {
   const [coachesData, setcoachesData] = useState([]);

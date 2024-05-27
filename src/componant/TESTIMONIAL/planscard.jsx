@@ -1,7 +1,7 @@
 import React from 'react'
 
 import './TESTIMONIAL.css'
-import { FaStar,FaCheck } from "react-icons/fa";
+import { FaCheck } from "react-icons/fa";
 
 
 export default function Planscard(props) {

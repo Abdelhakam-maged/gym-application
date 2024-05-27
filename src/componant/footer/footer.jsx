@@ -95,24 +95,24 @@ const Footer = () => {
 </div>
 
 <div className="m-auto">
-  <a href="" className="me-4 text-reset">
+  <Link href="" className="me-4 text-reset">
     <FaFacebook/>
-  </a>
-  <a href="" className="me-4 text-reset">
+  </Link>
+  <Link href="" className="me-4 text-reset">
     <FaInstagram/>
-  </a>
-  <a href="" className="me-4 text-reset">
+  </Link>
+  <Link href="" className="me-4 text-reset">
 <FaLinkedin/>
-  </a>
-  <a href="" className="me-4 text-reset">
+  </Link>
+  <Link href="" className="me-4 text-reset">
   <FaTwitter/>
-  </a>
-  <a href="" className="me-4 text-reset">
+  </Link>
+  <Link href="" className="me-4 text-reset">
 
-  </a>
-  <a href="" className="me-4 text-reset">
+  </Link>
+  <Link href="" className="me-4 text-reset">
   <FaYoutube/>
-  </a>
+  </Link>
 </div>
 
 </section>

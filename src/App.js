@@ -9,7 +9,6 @@ import ACTIVITIES from "./componant/Activities/Activities";
 import Whoweare from "./componant/blog/Whoweare";
 import Coaches from "./componant/our-Coaches/0ur-Coaches.jsx";
 import Error from "./componant/error";
-import Aboutus from "./componant/aboutus";
 import Contact from "./componant/contact-page/contact.jsx";
 function App() {
   const router = createBrowserRouter([

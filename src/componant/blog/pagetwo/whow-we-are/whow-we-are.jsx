@@ -1,7 +1,6 @@
 import React from 'react';
 import "./whow-we-are.css"
 import { LuDot } from "react-icons/lu";
-import { FaRunning, FaLongArrowAltRight } from "react-icons/fa";
 
 import imageone from "../../../../images/imagesix.jfif"
 

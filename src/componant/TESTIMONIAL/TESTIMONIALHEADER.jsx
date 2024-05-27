@@ -1,6 +1,6 @@
 import React from 'react'
 import { GoArrowSwitch } from "react-icons/go";
-import { FaStar,FaCheck } from "react-icons/fa";
+import { FaStar } from "react-icons/fa";
 import image1 from "../../images/images (1).jfif"
 export default function TESTIMONIALHEADER(props) {
   return (

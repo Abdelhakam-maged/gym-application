@@ -1,7 +1,6 @@
 import React from "react";
 import "./aboutus.css";
 import { FaRunning, FaLongArrowAltRight } from "react-icons/fa";
-import image1 from "../images/image1.jfif";
 const Aboutus = () => {
   return (
     <div className=" juscon align-items-center">

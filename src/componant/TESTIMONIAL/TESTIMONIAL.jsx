@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./TESTIMONIAL.css";
-import { GoArrowSwitch } from "react-icons/go";
-import { FaStar,FaCheck } from "react-icons/fa";
-import image1 from "../../images/images (1).jfif"
+import { FaCheck } from "react-icons/fa";
 import TESTIMONIALHEADER from "./TESTIMONIALHEADER";
 const TESTIMONIAL = () => {
   const [plans, setplans] = useState([]);
