@@ -58,7 +58,9 @@ height: 567px;
     color:rgba(253, 0, 84, 1) ;
 }
 
-
+.downloadside div{
+    cursor: pointer;
+}
 
 @media(max-width:1110px){
 .serhome-width, .imagestyle{
@@ -83,9 +85,12 @@ height: 567px;
     }
 
     @media(max-width:750px){
-
+.downloadside{
+    display: none;
+}
         .containerwidth{
             align-items: center;
+            
         }
         .imagestyle{
             width: 350px;
@@ -97,7 +102,8 @@ height: 567px;
             text-align: center;
         }
         .servicescontainer{
-            margin-right: 20px;
+           
+            margin-bottom: 30px;
         }
         }
 
@@ -112,3 +118,7 @@ height: 567px;
                 width: 300px;
             }
             }  
+.cursor-poiner{
+    cursor: pointer;
+    user-select: none;
+}

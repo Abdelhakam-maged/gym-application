@@ -15,7 +15,7 @@ const [bmi,setbmi]=useState()
 const [show,setshow]=useState(false)
   const data = (e) => {
     userdata[e.target.name] = e.target.value;
-    console.log(userdata);
+    
   };
   const calc = () => {
     if(userdata.height===""){
@@ -32,7 +32,7 @@ const [show,setshow]=useState(false)
     setshow(true)
   };
 
-console.log(data)
+
   return (
     <div className='d-flex bodycontainer  componant-padding align-items-center justify-content-around flex-wrap '>
         <div className="componantheader side-width">
@@ -58,7 +58,7 @@ console.log(data)
               
               type="text"
               value='in'
-            
+            readOnly
               className="inputtwo"
             />
           </label>
@@ -73,7 +73,7 @@ console.log(data)
           />
           
           </label>
-          <button className='mt-2' onClick={calc}>CALCULATE</button>
+          <button className='mt-2 ps-3 pe-3' onClick={calc}>CALCULATE</button>
 
           < Modal show={show} setshow={setshow} bmi={bmi} />
         </div>

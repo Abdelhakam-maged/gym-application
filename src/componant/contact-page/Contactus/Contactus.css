@@ -15,14 +15,15 @@
     border: 0;
     outline: none;  
     background-color: gray;
-   
+    padding-left: 10px;
+    outline: none;
     
     }
 
 
     .contact-form input[type="textarea"]{
         height: 140px;
-        width: 418px;
+        width: 434px;
     }
     
 ::-webkit-input-placeholder {

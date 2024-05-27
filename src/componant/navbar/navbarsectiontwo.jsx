@@ -1,19 +1,31 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { IoBarbell } from "react-icons/io5"; 
 import { IoIosArrowForward } from "react-icons/io";
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 const pages=[
-  {name:'HOME',to:""},
-  {name:'ACTIVITIES' ,to:"Activities"},
-  {name:'OUR SHOP', to:"ourshop"},
-  {name:'WHO WE ARE',to:"whoweare"},
-  {name:'COACHES' ,to:"coaches"},
+  {id:1,name:'HOME',to:""},
+  {id:2,name:'ACTIVITIES' ,to:"Activities"},
+  {id:3,name:'OUR SHOP', to:"ourshop"},
+  {id:4,name:'WHO WE ARE',to:"whoweare"},
+  {id:5,name:'COACHES' ,to:"coaches"},
  
-  {name:'CONTACT' ,to:"contact"},
+  {id:6,name:'CONTACT' ,to:"contact"},
 ]
 
+
+
+
 const Navbarsectiontwo = (props) => {
+  const [curPage,setCurPage] = useState("")
+  
+  const location=useLocation()
+  const curLocation=location.pathname.split("/")[1]
+
+console.log(curLocation)
+
+
+
   return (
     <div className={`m-0 ${props.bgcontainer}`}>
       <div className={`col-1 pt-2 text-light ${props.bglogo}`}>
@@ -24,9 +36,9 @@ const Navbarsectiontwo = (props) => {
       </div>
       <div className={`col-8 p-0 ${props.bglinks}`}>
         <div className='d-flex align-items-center justify-content-between navlist-width  m-auto   p-4'>
-          {pages.map((item)=>{
+          {pages.map((item,index)=>{
             return <div key={Math.random()}>
-            <Link className='  link-underline-light link-underline-opacity-0 text-light '  to={`/${item.to}`}>{item.name}</Link>
+            <Link   className={`link-underline-light link-underline-opacity-0 text-light ${ curLocation.toLowerCase() === item.to.toLowerCase() ? "active" : ""}`} to={`/${item.to}`}>{item.name}</Link>
           </div>
           })}
           

@@ -41,22 +41,22 @@ export default function Alexphoecix() {
     <span>90%</span>
 </div>
           <div
-              class="progress "
+              className="progress "
               role="progressbar"
               aria-label="Basic example"
             >
-              <div class="progress-bar"></div>
+              <div className="progress-bar"></div>
             </div>
             <div className="d-flex  justify-content-between binkcolor mt-5">
     <h4>WEIGHTLIFTING</h4>
     <span>75%</span>
 </div>
           <div
-              class="progress "
+              className="progress "
               role="progressbar"
               aria-label="Basic example"
             >
-              <div class="progress-bar w-75"></div>
+              <div className="progress-bar w-75"></div>
             </div>
 
             <div className="d-flex  justify-content-between binkcolor mt-5">
@@ -64,20 +64,20 @@ export default function Alexphoecix() {
     <span>90%</span>
 </div>
           <div
-              class="progress "
+              className="progress "
               role="progressbar"
               aria-label="Basic example"
             >
-              <div class="progress-bar"></div>
+              <div className="progress-bar"></div>
             </div>
 
 <div className="mt-5 contact">
     <h5>CONTACT ME</h5>
-<input type="text" placeholder="FULL NAME" className="me-5"/>
+<input type="text" placeholder="FULL NAME" className="fullname"/>
 <input type="text" placeholder="EMAIL" />
 <input type="textarea" placeholder="MASSAGE" className="w-100 mt-3 "/>
 
-<button className="mt-4 binkcolor">SEND</button>
+<button className="mt-4 binkcolor pe-4 ps-4">SEND</button>
 </div>
             
         </div>

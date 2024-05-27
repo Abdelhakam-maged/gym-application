@@ -9,7 +9,7 @@ import "./ARTICLESPAGETWO.css"
 import ARTICLESCARD from '../../../ARTICLESCARD/ARTICLESCARD'
 export default function ARTICLESPAGETWO() {
   return (
-    <div className='componant-padding'> 
+    <div className='componant-padding articlescontainer '> 
           <div className=' text-center '>
     <div className=' textcolor fw-bold'><span className='headerspace' ></span> NEWS & ARTICLES</div>
 

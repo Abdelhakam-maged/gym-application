@@ -41,27 +41,27 @@ export default function Whowearepagetwo() {
             <img src={imagethere} alt="" />
             <h6 className="mt-5">BODY BULDING</h6>
             <div
-              class="progress "
+              className="progress "
               role="progressbar"
               aria-label="Basic example"
             >
-              <div class="progress-bar"></div>
+              <div className="progress-bar"></div>
             </div>
             <h6 className="mt-3">WEIGHTLIFTING</h6>
             <div
-              class="progress "
+              className="progress "
               role="progressbar"
               aria-label="Basic example"
             >
-              <div class="progress-bar"></div>
+              <div className="progress-bar"></div>
             </div>
             <h6 className="mt-3">BODY BULDING</h6>
             <div
-              class="progress "
+              className="progress "
               role="progressbar"
               aria-label="Basic example"
             >
-              <div class="progress-bar"></div>
+              <div className="progress-bar"></div>
             </div>
           </div>
         </div>

@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { FaShoppingCart, FaSearch } from "react-icons/fa";
+import { FaShoppingCart, FaSearch, FaArrowAltCircleUp ,FaArrowAltCircleDown } from "react-icons/fa";
 
 import bottole1 from '../../../images/bottle1.jpg'
 import bottole2 from '../../../images/bottle2.jpg'
@@ -29,8 +29,6 @@ import shoes3 from "../../../images/shoes2.jfif";
 import shoes4 from "../../../images/shoes3.jfif";
 import "./ourshop.css";
 import Pagination from "./pagination";
-import Homecard from "../../pagethree/COACHES-HOME/homecard";
-
 
 
 const data = [
@@ -263,7 +261,7 @@ export default function OurShop() {
 
   const filterbyname = (e) => {
     const usertext = e.target.value.trim().toLowerCase();
-    console.log(usertext);
+
 
     const newItems = data.filter((categoriename) =>
       categoriename.name.toLowerCase().includes(usertext)
@@ -272,7 +270,6 @@ export default function OurShop() {
     setCurPage(1);
     setFilterdItems(newItems);
 
-    console.log(newItems);
   };
 
   // const nPages = Math.ceil(categories.length / recordsPerPage);
@@ -280,7 +277,7 @@ export default function OurShop() {
   const [card, setcard] = useState([]);
  
   const addcard = (item) => {
-    console.log('hjashkj');
+   
     if (
       card.some((card) => {
         return card.id === item.id;
@@ -299,7 +296,7 @@ export default function OurShop() {
 
   };
 
-  const [showcard, setshowcard] = useState(false);
+  const [showcard, setshowcard] = useState(true);
 
   const showcards = () => {
     if (showcard === false) {
@@ -328,11 +325,11 @@ export default function OurShop() {
       <div className="d-flex justify-content-around flex-wrap mt-5 mb-5 componant-padding ">
         <div>
           <button className="cardbtn" onClick={showcards}>
-            <FaShoppingCart/>
+            <FaShoppingCart/> {showcard ?<FaArrowAltCircleDown className="ms-3"/>:<FaArrowAltCircleUp className="ms-3"/>}
           </button>
           {showcard ? (
             card.map((card) => (
-              <div key={Math.random()} className="text-center d-flex align-items-center justify-content-between mb-3  ">
+              <div key={Math.random()} className="text-center d-flex align-items-center justify-content-between mb-3   ">
                 <div>
                 {card.name}
                 </div>

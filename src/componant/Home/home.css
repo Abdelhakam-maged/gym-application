@@ -34,7 +34,7 @@ color: white;
 padding-left: 10px;
 border: none;
 outline: none;
-}
+} 
 .input2{
   width: 200px;
   height: 40px;
@@ -101,9 +101,6 @@ input::-webkit-inner-spin-button {
     margin: 0;
 }
 
-input[type=number]{
-  -moz-appearance: textfield;
-}
 
 .close{
   position: absolute;

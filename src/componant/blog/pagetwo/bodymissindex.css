@@ -3,13 +3,19 @@
     margin-left: 10px;
 }
 
+.side-width input{
+  padding-left: 10px;
+  outline: none;
+}
 .inputone {
     width: 170px;
     margin-right: 10px;
+ 
 }
 
 .inputtwo{
     width: 170px;
+
 }
 
 .bodycontainer button {

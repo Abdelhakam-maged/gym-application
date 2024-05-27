@@ -1,10 +1,10 @@
 import React from 'react';
-import Coacheshome from '../pagethree/COACHES-HOME/Coacheshome';
-import BestTrainnerPageThree from '../pagethree/best-trainner-pagethere/Best-Trainner-Page-Three';
-import Homecard from '../pagethree/COACHES-HOME/homecard';
+import Coacheshome from './COACHES-HOME/Coacheshome';
+import BestTrainnerPageThree from './best-trainner-pagethere/Best-Trainner-Page-Three';
+import Homecard from './COACHES-HOME/homecard';
  
 import Footer from '../footer/footer'
-import Pricing from '../pagethree/pricing/pricing';
+import Pricing from './pricing/pricing';
 
 import TESTIMONIALHEADER from '../TESTIMONIAL/TESTIMONIALHEADER';
 import Besttrainner from '../blog/pagetwo/navbarpagetwo/best-trainner/best-trainner';
@@ -16,7 +16,7 @@ const Coaches = () => {
       <div className='mb-5'>
     
 </div>
-      <Homecard  bgimg={'bg-homepricing'}  head={"OUR PRICING"}  text={'Pages-Pricing'} /> 
+  
 
 
       <Pricing/>

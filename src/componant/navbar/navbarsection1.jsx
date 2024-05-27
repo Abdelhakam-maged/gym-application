@@ -60,26 +60,26 @@ const Navbarsection1 = () => {
   }, []);
   return (
     <div>
-      <div class="row  m-auto navsec1container">
-        <div class="col-lg-3 col-sm-6">
+      <div className="row  m-auto navsec1container">
+        <div className="col-lg-3 col-sm-6">
           <IoMdLocate className="me-2" />
           <span className="text-light">
             Address :<span> {userData?.address}</span>{" "}
           </span>
         </div>
-        <div class="col-lg-3 col-sm-6">
+        <div className="col-lg-3 col-sm-6">
           <IoCallOutline className="me-2" />
           <span className="text-light">
             Call : <span>{userData?.PhoneNo}</span>
           </span>
         </div>
-        <div class="col-lg-4 col-sm-6">
+        <div className="col-lg-4 col-sm-6">
           <IoMailOutline className="me-2" />
           <span className="text-light">
             Email : <span>{userData?.Email}</span>
           </span>
         </div>
-        <div class="col-lg-2 col-sm-6">
+        <div className="col-lg-2 col-sm-6">
           {socials.map((item) => {
             return (
               <Link

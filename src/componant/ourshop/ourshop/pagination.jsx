@@ -74,13 +74,13 @@ const CustomPagination = ({ nPages = 1, setCurrentPage, currentPage }) => {
   return (
     <div className="custom-pagination">
       <ul>
-        <li onClick={handlePrevClick}>
+        <div onClick={handlePrevClick}>
           <FaChevronLeft />
-        </li>
+        </div>
         {renderPageNumbers()}
-        <li onClick={handleNextClick}>
+        <div onClick={handleNextClick}>
           <FaChevronRight />
-        </li>
+        </div>
       </ul>
     </div>
   );

@@ -61,7 +61,7 @@ const Navbarresponsive = (props) => {
   show?<div className='     d-flex justify-content-end  '>
         <div className='  bg-dark  p-0 w-50  items   '>
           {pages.map((item)=>{
-            return <div  className='m-0 pt-3 pb-3 m-auto  text-center '>
+            return <div key={Math.random()}  className='m-0 pt-3 pb-3 m-auto  text-center '>
             <Link className=' link-underline-light link-underline-opacity-0 text-light  '   to={`/${item.to}`}>{item.name}</Link>
           </div>
           })}

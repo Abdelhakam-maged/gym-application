@@ -2,7 +2,7 @@ import React from 'react'
 import Contactus from './Contactus/Contactus'
 import Alexphoecix from './alex-phoenix/alexphoecix'
 import Footer from '../footer/footer'
-import Homecard from '../pagethree/COACHES-HOME/homecard'
+import Homecard from '../our-Coaches/COACHES-HOME/homecard'
 import Map from './map/map'
 
 export default function Contact() {

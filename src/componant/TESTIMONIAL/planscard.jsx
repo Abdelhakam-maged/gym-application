@@ -12,7 +12,7 @@ export default function Planscard(props) {
       ]
   return (
     <div>
-      <div  className={` text-center  m-4 p-5  ${props.bgcolor}`}>
+      <div  className={` text-center  m-4  ${props.bgcolor}`}>
                 <h5>PRO PLAN</h5>
                 <p>HERE GOES SOME DESCRIBTION</p>
                 <span className="fs-3   mb-3 ">$15 monthly</span>

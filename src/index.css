@@ -39,3 +39,10 @@ code {
     width: 80%;
   }
 }
+
+@media (min-width:1550px){
+  .componant-width{
+     width: 1550px !important;
+     margin: auto;
+   }
+}

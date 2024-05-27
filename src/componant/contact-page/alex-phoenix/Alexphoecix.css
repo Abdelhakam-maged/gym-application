@@ -30,6 +30,7 @@ color: rgba(253, 0, 84, 1);
 background-color: rgba(192, 192, 192, 0.3);
 border: 0;
 outline: none;
+padding-left: 10px;
 
 }
 
@@ -39,7 +40,9 @@ width: 275px;
 margin-top: 10PX;
 
 }
-
+.fullname{
+  margin-right: 50px;
+}
 .contact input[type="textarea"]{
     height: 140px;
 }
@@ -72,7 +75,9 @@ margin-top: 10PX;
 
 
   @media(max-width:450px){
-
+    .fullname{
+      margin-right: 0px;
+    }
     .firstside img{
       width: 250px;
       

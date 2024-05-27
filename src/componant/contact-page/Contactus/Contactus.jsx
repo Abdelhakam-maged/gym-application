@@ -55,7 +55,7 @@ export default function Contactus() {
     <input type="text" placeholder="EMAIL" className='mt-3'/>
     <input type="text" placeholder="PHONE" className='me-5 mt-3'/>
     <input type="text" placeholder="SUBJECT" className='mt-3'/>
-    <input type="textarea" placeholder="MASSAGE" className=' mt-3'/>
+    <input type="textarea" placeholder="MASSAGE" className=' mt-3 '/>
    
 </div>
 <button className='mt-4 ms-5 ps-4 pe-4'>SEND EMAIL</button>

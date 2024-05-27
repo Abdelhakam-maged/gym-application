@@ -5,7 +5,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./componant/Home/home";
 import OurShopS from "./componant/ourshop/ourshop";
 import ACTIVITIES from "./componant/Activities/Activities";
-import Classes from "./componant/classes/classes";
+
 import Whoweare from "./componant/blog/Whoweare";
 import Coaches from "./componant/our-Coaches/0ur-Coaches.jsx";
 import Error from "./componant/error";
@@ -29,9 +29,9 @@ function App() {
     },
   ]);
   return (
-    <>
+    <div className="componant-width">
       <RouterProvider router={router} />
-    </>
+    </div>
   );
 }
 

@@ -68,7 +68,7 @@ const TESTIMONIAL = () => {
             
             return (
               
-              <div key={item.h4} className={item.h4==="PRO PLAN"?"text-light text-center proplanbgcolor  m-4 p-5  ":"text-light text-center m-4    bg-dark  p-5  "}>
+              <div key={item.h4} className={item.h4==="PRO PLAN"?"text-light text-center proplanbgcolor  m-4   ":"text-light text-center m-4 plans    bg-dark    "}>
                 <h5>{item?.h4}</h5>
                 <p>{item?.p}</p>
                 <span className="fs-3   mb-3 text-light">{item?.cost}</span>

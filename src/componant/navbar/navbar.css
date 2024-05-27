@@ -35,6 +35,9 @@ border-bottom: 3px solid gray;
 
 }
 
+.navlist-width .active{
+border-bottom: 1px solid white; 
+}
 
 @media(max-width:1050px) {
 .navsec2container{

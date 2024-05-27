@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Services from '../Activities/services/services';
-import Homecard from '../pagethree/COACHES-HOME/homecard';
+import Homecard from '../our-Coaches/COACHES-HOME/homecard';
 import OnlineTrainers from '../Activities/onlinetrainers/OnlineTrainers';
 import Footer from '../footer/footer';
 

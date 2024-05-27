@@ -54,7 +54,7 @@ const [show,setshow]=useState(false)
             <div className="text-light  ">Height</div>
           </label>
 </div>
-          <input type="text" value="in" className="input1 me-3" />
+          <input type="text" value="in" readOnly className="input1 me-3" />
           <div>
           <label>
           <input
